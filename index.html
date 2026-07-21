@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus AI — The Future of Intelligence</title>
+    <meta name="description" content="Nexus AI delivers cutting-edge artificial intelligence solutions for businesses ready to embrace the future.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Space Grotesk', 'system-ui', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f0ff',
+                            100: '#e0e0ff',
+                            200: '#c4c4ff',
+                            300: '#9d9dff',
+                            400: '#7b7bff',
+                            500: '#5a5aff',
+                            600: '#4a4aee',
+                            700: '#3b3bd4',
+                            800: '#2d2da8',
+                            900: '#1e1e7a',
+                            950: '#10104a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#0a0a0f] text-white font-sans overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0f]/80 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="#" class="flex items-center gap-2 group">
+                    <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">N</span>
+                    </div>
+                    <span class="font-semibold text-lg tracking-tight">Nexus <span class="text-brand-400">AI</span></span>
+                </a>
+                <div class="hidden md:flex items-center gap-8 text-sm text-gray-400">
+                    <a href="#features" class="hover:text-white transition-colors">Features</a>
+                    <a href="#testimonials" class="hover:text-white transition-colors">Testimonials</a>
+                    <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
+                    <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+                </div>
+                <a href="#pricing" class="hidden md:inline-flex items-center px-4 py-2 rounded-full bg-brand-500 hover:bg-brand-400 text-white text-sm font-medium transition-all duration-200 hover:shadow-lg hover:shadow-brand-500/25">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+        <!-- Animated background elements -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-500/20 rounded-full blur-[120px] animate-pulse"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-purple-500/15 rounded-full blur-[100px] animate-pulse" style="animation-delay: 1s;"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-500/10 rounded-full blur-[150px] animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+        <!-- Grid pattern overlay -->
+        <div class="absolute inset-0 z-0 opacity-[0.03]" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 40px 40px;"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-brand-400/30 bg-brand-400/5 text-brand-300 text-sm mb-8 animate-fade-in">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-400"></span>
+                </span>
+                Now in public beta — v2.0
+            </div>
+            <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.05] tracking-tight mb-6 animate-slide-up">
+                The Future of
+                <span class="bg-gradient-to-r from-brand-300 via-brand-400 to-purple-400 bg-clip-text text-transparent">AI is Here</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 animate-slide-up" style="animation-delay: 0.15s;">
+                Nexus AI empowers your team with intelligent automation, real-time insights, and enterprise-grade reliability — all through a single, elegant platform.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style="animation-delay: 0.3s;">
+                <a href="#pricing" class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-500 hover:bg-brand-400 text-white font-semibold text-lg transition-all duration-200 hover:shadow-xl hover:shadow-brand-500/30 hover:-translate-y-0.5">
+                    Get Started Free
+                </a>
+                <a href="#features" class="w-full sm:w-auto px-8 py-4 rounded-full border border-white/10 hover:border-white/30 text-gray-300 hover:text-white font-semibold text-lg transition-all duration-200 hover:-translate-y-0.5">
+                    Explore Features →
+                </a>
+            </div>
+            <div class="mt-16 flex items-center justify-center gap-8 text-gray-500 text-sm animate-fade-in" style="animation-delay: 0.5s;">
+                <div class="flex items-center gap-2"><span class="text-white font-semibold">10K+</span> Users</div>
+                <div class="w-px h-4 bg-white/10"></div>
+                <div class="flex items-center gap-2"><span class="text-white font-semibold">99.9%</span> Uptime</div>
+                <div class="w-px h-4 bg-white/10"></div>
+                <div class="flex items-center gap-2"><span class="text-white font-semibold">4.9</span> ★ Rating</div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+            <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+                    Everything You <span class="bg-gradient-to-r from-brand-300 to-brand-500 bg-clip-text text-transparent">Need</span>
+                </h2>
+                <p class="text-gray-400 text-lg max-w-2xl mx-auto">A complete AI platform designed to scale with your ambition.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="feature-card group relative p-6 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand-400/30 transition-all duration-300 hover:-translate-y-1 hover:bg-white/[0.05]">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-brand-500/20 to-brand-600/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-6 h-6 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Smart Automation</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Automate repetitive workflows with intelligent agents that learn and adapt in real-time.</p>
+                </div>
+
+                <div class="feature-card group relative p-6 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand-400/30 transition-all duration-300 hover:-translate-y-1 hover:bg-white/[0.05]">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500/20 to-purple-600/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Real-time Insights</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Monitor KPIs and uncover trends with live dashboards powered by predictive analytics.</p>
+                </div>
+
+                <div class="feature-card group relative p-6 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand-400/30 transition-all duration-300 hover:-translate-y-1 hover:bg-white/[0.05]">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-600/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">99.9% Uptime</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Enterprise infrastructure with automatic failover ensures your AI is always available.</p>
+                </div>
+
+                <div class="feature-card group relative p-6 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand-400/30 transition-all duration-300 hover:-translate-y-1 hover:bg-white/[0.05]">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-amber-600/10 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Easy Integration</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Plug into your existing stack with our REST API, SDKs, and 50+ pre-built connectors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 px-4 bg-white/[0.015]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+                    Trusted by <span class="bg-gradient-to-r from-brand-300 to-brand-500 bg-clip-text text-transparent">Innovators</span>
+                </h2>
+                <p class="text-gray-400 text-lg max-w-2xl mx-auto">See what our customers are saying about Nexus AI.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card p-8 rounded-2xl bg-white/[0.03] border border-white/5 relative">
+                    <div class="flex gap-1 mb-6 text-amber-400">
+                        ★ ★ ★ ★ ★
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6">"Nexus AI transformed how we handle customer support. Our response times dropped by 70% in the first month alone."</p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://picsum.photos/seed/sarah/48/48" alt="Sarah Chen" class="w-12 h-12 rounded-full object-cover ring-2 ring-brand-400/30" loading="lazy">
+                        <div>
+                            <p class="font-medium text-sm">Sarah Chen</p>
+                            <p class="text-gray-500 text-xs">CTO, TechVista</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card p-8 rounded-2xl bg-white/[0.03] border border-white/5 relative md:-translate-y-4">
+                    <div class="flex gap-1 mb-6 text-amber-400">
+                        ★ ★ ★ ★ ★
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6">"The real-time insights dashboard gave us visibility we never had before. Game-changer for our operations team."</p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://picsum.photos/seed/marcus/48/48" alt="Marcus Rivera" class="w-12 h-12 rounded-full object-cover ring-2 ring-brand-400/30" loading="lazy">
+                        <div>
+                            <p class="font-medium text-sm">Marcus Rivera</p>
+                            <p class="text-gray-500 text-xs">VP Engineering, DataFlow</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card p-8 rounded-2xl bg-white/[0.03] border border-white/5 relative">
+                    <div class="flex gap-1 mb-6 text-amber-400">
+                        ★ ★ ★ ★ ★
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6">"Integration was seamless. We had our entire stack connected to Nexus AI within a weekend. Zero headaches."</p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://picsum.photos/seed/elena/48/48" alt="Elena Torres" class="w-12 h-12 rounded-full object-cover ring-2 ring-brand-400/30" loading="lazy">
+                        <div>
+                            <p class="font-medium text-sm">Elena Torres</p>
+                            <p class="text-gray-500 text-xs">Lead Developer, NovaCorp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+                    Simple, <span class="bg-gradient-to-r from-brand-300 to-brand-500 bg-clip-text text-transparent">Transparent</span> Pricing
+                </h2>
+                <p class="text-gray-400 text-lg max-w-2xl mx-auto">Start free and scale as you grow. No hidden fees.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+                <!-- Free Plan -->
+                <div class="pricing-card p-8 rounded-2xl bg-white/[0.03] border border-white/5 flex flex-col">
+                    <p class="text-sm font-semibold text-brand-400 mb-2">FREE</p>
+                    <div class="mb-6">
+                        <span class="text-5xl font-bold">$0</span>
+                        <span class="text-gray-400">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 flex-1 text-sm text-gray-300">
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 1,000 API calls/month</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Basic analytics</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Community support</li>
+                    </ul>
+                    <a href="#" class="block text-center py-3 rounded-full border border-white/10 hover:border-white/30 text-white font-medium transition-all duration-200 hover:-translate-y-0.5">
+                        Get Started
+                    </a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card p-8 rounded-2xl bg-gradient-to-b from-brand-500/10 to-brand-600/5 border border-brand-400/30 flex flex-col relative md:-mt-4 md:-mb-4">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-brand-500 text-white text-xs font-semibold">Most Popular</div>
+                    <p class="text-sm font-semibold text-brand-400 mb-2">PRO</p>
+                    <div class="mb-6">
+                        <span class="text-5xl font-bold">$49</span>
+                        <span class="text-gray-400">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 flex-1 text-sm text-gray-300">
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 50,000 API calls/month</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Advanced analytics</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Priority support</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Custom integrations</li>
+                    </ul>
+                    <a href="#" class="block text-center py-3 rounded-full bg-brand-500 hover:bg-brand-400 text-white font-medium transition-all duration-200 hover:shadow-xl hover:shadow-brand-500/30 hover:-translate-y-0.5">
+                        Start Pro Trial
+                    </a>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card p-8 rounded-2xl bg-white/[0.03] border border-white/5 flex flex-col">
+                    <p class="text-sm font-semibold text-brand-400 mb-2">ENTERPRISE</p>
+                    <div class="mb-6">
+                        <span class="text-5xl font-bold">$199</span>
+                        <span class="text-gray-400">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 flex-1 text-sm text-gray-300">
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Unlimited API calls</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Dedicated infrastructure</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 24/7 phone support</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> SLA guarantee</li>
+                    </ul>
+                    <a href="#" class="block text-center py-3 rounded-full border border-white/10 hover:border-white/30 text-white font-medium transition-all duration-200 hover:-translate-y-0.5">
+                        Contact Sales
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 px-4">
+        <div class="max-w-4xl mx-auto text-center relative">
+            <div class="absolute inset-0 bg-brand-500/10 rounded-3xl blur-3xl -z-10"></div>
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 tracking-tight">Ready to Build the Future?</h2>
+            <p class="text-gray-400 text-lg mb-8">Join thousands of teams already using Nexus AI to work smarter.</p>
+            <a href="#pricing" class="inline-flex px-8 py-4 rounded-full bg-brand-500 hover:bg-brand-400 text-white font-semibold text-lg transition-all duration-200 hover:shadow-xl hover:shadow-brand-500/30 hover:-translate-y-0.5">
+                Start for Free →
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-12 px-4 border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <h4 class="font-semibold mb-4 text-sm">Product</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Features</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Changelog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 text-sm">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 text-sm">Legal</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 text-sm">Connect</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Twitter</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">GitHub</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Discord</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center justify-between pt-8 border-t border-white/5 text-sm text-gray-500">
+                <p>&copy; 2025 Nexus AI. All rights reserved.</p>
+                <p class="mt-2 sm:mt-0">Built with ♥ for the future.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
